@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #969696;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(34deg, #04d0e2 0%, #00828e 35%) fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.background__pattern--top {
+  position: absolute;
+  top: -45%;
+  left: -10%;
+  width: 800px;
+  height: auto;
+}
+
+@media (max-width: 376px) {
+  .background__pattern--top {
+    top: -50%;
+    width: 500px;
+    left: -80%;
+  }
+}
+
+.background__pattern--bottom {
+  position: fixed;
+  bottom: -63%;
+  width: 800px;
+  right: -10%;
+  height: auto;
+  min-height: 0;
+}
+
+@media (max-width: 376px) {
+  .background__pattern--bottom {
+    bottom: -50%;
+    width: 500px;
+    right: -80%;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  height: 400px;
+  width: 360px;
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.31);
+          box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.31);
+}
+
+@media (max-width: 376px) {
+  .card {
+    margin: 0 25px;
+  }
+}
+
+.card__bg {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.card__visual {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid #fff;
+  top: 78px;
+  left: 115px;
+}
+
+@media (max-width: 376px) {
+  .card__visual {
+    left: 105px;
+    width: 115px;
+    height: 115px;
+  }
+}
+
+.card__title {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0 0 0;
+  padding: 70px 20px 0 30px;
+}
+
+.card__title--age {
+  color: #969696;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 1px;
+}
+
+.card__subtitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0.25rem 0 0.5rem 0;
+  padding-bottom: 15px;
+  color: #969696;
+}
+
+.card__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.card__stats-amount {
+  font-weight: 700;
+  color: black;
+}
+
+.card__stats-how {
+  color: #969696;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.breakline {
+  color: #969696;
+  height: 1px;
+  opacity: 0.3;
+}
+/*# sourceMappingURL=styles.css.map */
